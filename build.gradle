@@ -8,7 +8,7 @@ konanArtifacts {
         defFile 'ncurses.def'
     }
 
-    program('kurses', targets: ['macbook']) {
+    program('kquarium', targets: ['macbook']) {
         srcDir "${project.rootDir}/src/main/kotlin"
         libraries {
             artifact 'ncurses'

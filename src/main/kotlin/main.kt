@@ -12,11 +12,9 @@ fun main(args: Array<String>) {
 }
 
 object Game {
-
     var mainWindow: CPointer<WINDOW> = initscr()!!
-    val width: Int = getmaxx(mainWindow)
-    val height: Int = getmaxy(mainWindow)
-
+    val width: Int = mainWindow.getWidth()
+    val height: Int = mainWindow.getHeight()
     fun run() {
         curs_set(0)
         while (true) {
@@ -32,6 +30,8 @@ object Game {
 }
 
 fun Int.randRange(min: Int) = rand() % (this - min)
+fun CPointer<WINDOW>.getWidth() = getmaxx(this)
+fun CPointer<WINDOW>.getHeight() = getmaxy(this)
 fun CPointer<WINDOW>.move(positionY: Int, positionX: Int) = mvwin(this, positionY, positionX)
 fun CPointer<WINDOW>.clear() = wclear(this)
 fun CPointer<WINDOW>.refresh() = wrefresh(this)
