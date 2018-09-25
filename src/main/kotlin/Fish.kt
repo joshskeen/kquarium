@@ -4,9 +4,8 @@ class Guppy : Fish("art/fishone.txt", 4)
 class Octopus : Fish("art/fishtwo.txt", 1)
 class Flounder : Fish("art/fishthree.txt", 3)
 
-open class Fish(private val filePath: String,
-                private val stepSize: Int = 3) {
-    open val asciiData: List<String> = readFileData(filePath).split("\n")
+open class Fish(filePath: String, private val stepSize: Int = 3) {
+    val asciiData: List<String> = readFileData(filePath).split("\n")
     val windowWidth = asciiData.max()!!.length + 5
     val windowHeight = asciiData.size + 1
     var posX = (Game.width - windowWidth).randRange(5)
