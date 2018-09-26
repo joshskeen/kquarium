@@ -56,7 +56,7 @@ MODEL		= ../objects
 DESTDIR		= 
 top_srcdir	= ..
 srcdir		= .
-prefix		= /usr/local
+prefix		= /usr/arm-linux-gnueabihf
 exec_prefix	= ${prefix}
 bindir		= ${exec_prefix}/bin
 libdir		= ${exec_prefix}/lib
@@ -74,18 +74,18 @@ INSTALL		= /usr/bin/install -c
 INSTALL_PROG	= ${INSTALL}
 transform	= s,x,x,
 
-AWK		= awk
+AWK		= mawk
 LN_S		= ln -s -f
 
-CTAGS		= ctags
-ETAGS		= etags
+CTAGS		= 
+ETAGS		= 
 
 CC		= gcc
 CPP		= gcc -E
-CFLAGS		= -O2 --param max-inline-insns-single=1200  -no-cpp-precomp
+CFLAGS		= -O2 --param max-inline-insns-single=1200
 
 INCDIR		= $(top_srcdir)/include
-CPPFLAGS	= -I../progs -I$(srcdir) -DHAVE_CONFIG_H   -D_DARWIN_C_SOURCE -DNDEBUG -I. -I../include -I${includedir}
+CPPFLAGS	= -I../progs -I$(srcdir) -DHAVE_CONFIG_H -P -D_GNU_SOURCE -DNDEBUG -I. -I../include -I${includedir}
 
 CCFLAGS		= $(CPPFLAGS) $(CFLAGS)
 
@@ -93,17 +93,17 @@ CFLAGS_LIBTOOL	= $(CCFLAGS)
 CFLAGS_NORMAL	= $(CCFLAGS)
 CFLAGS_DEBUG	= $(CCFLAGS) -g -DTRACE
 CFLAGS_PROFILE	= $(CCFLAGS) -pg
-CFLAGS_SHARED	= $(CCFLAGS) -dynamic
+CFLAGS_SHARED	= $(CCFLAGS) -fPIC
 
 CFLAGS_DEFAULT	= $(CFLAGS_NORMAL)
 
 REL_VERSION	= 5.9
 ABI_VERSION	= 5
-LOCAL_LIBDIR	= /Users/joshskeen/code/kotlin-native-experiments/pijam/kcurse/src/libs/ncurses-5.9/lib
+LOCAL_LIBDIR	= /home/gradle/src/libs/ncurses-5.9/lib
 
-LD		= ld
+LD		= arm-linux-gnueabihf-ld
 LINK		=  $(LIBTOOL_LINK)
-LDFLAGS		=   -Wl,-search_paths_first
+LDFLAGS		=  
 
 LDFLAGS_LIBTOOL	= $(LDFLAGS) $(CFLAGS_LIBTOOL)
 LDFLAGS_NORMAL	= $(LDFLAGS) $(CFLAGS_NORMAL)
@@ -353,18 +353,18 @@ lintlib :
 #  prefix:        lib
 #  suffix:        .a
 #  subset:        ticlib+termlib+ext_tinfo+base+ext_funcs
-#  ShlibVer:      abi
-#  ShlibVerInfix: yes
+#  ShlibVer:      rel
+#  ShlibVerInfix: no
 #  SymLink:       ln -s -f
 #  TermlibRoot:   ncurses
 #  TermlibSuffix: .a
 #  ReLink:        no
 #  DoLinks:       yes
 #  rmSoLocs:      no
-#  ldconfig:      
+#  ldconfig:      /sbin/ldconfig
 #  overwrite:     no
 #  depend:        ../include/ncurses_cfg.h ./progs.priv.h
-#  host:          x86_64-apple-darwin17.7.0
+#  host:          arm-unknown-linux-gnueabihf
 
 NORMAL_OBJS = \
 	../objects/clear$o \
@@ -391,7 +391,7 @@ clean ::
 #   echo:       yes
 #   subset:     ticlib+termlib+ext_tinfo+base+ext_funcs
 #   crenames:   yes
-#   cxxrenames: yes
+#   cxxrenames: 
 #   traces:     DEBUG
 #   srcdir:     .
 
@@ -455,18 +455,18 @@ clean ::
 #  prefix:        lib
 #  suffix:        _g.a
 #  subset:        ticlib+termlib+ext_tinfo+base+ext_funcs
-#  ShlibVer:      abi
-#  ShlibVerInfix: yes
+#  ShlibVer:      rel
+#  ShlibVerInfix: no
 #  SymLink:       ln -s -f
 #  TermlibRoot:   ncurses
 #  TermlibSuffix: .a
 #  ReLink:        no
 #  DoLinks:       yes
 #  rmSoLocs:      no
-#  ldconfig:      
+#  ldconfig:      /sbin/ldconfig
 #  overwrite:     no
 #  depend:        ../include/ncurses_cfg.h ./progs.priv.h
-#  host:          x86_64-apple-darwin17.7.0
+#  host:          arm-unknown-linux-gnueabihf
 
 DEBUG_OBJS = \
 	../obj_g/clear$o \
@@ -493,7 +493,7 @@ clean ::
 #   echo:       yes
 #   subset:     ticlib+termlib+ext_tinfo+base+ext_funcs
 #   crenames:   yes
-#   cxxrenames: yes
+#   cxxrenames: 
 #   traces:     DEBUG
 #   srcdir:     .
 

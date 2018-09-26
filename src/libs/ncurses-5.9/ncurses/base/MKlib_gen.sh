@@ -62,7 +62,7 @@ if test "${LC_MESSAGES+set}" = set; then LC_MESSAGES=C; export LC_MESSAGES; fi
 if test "${LC_CTYPE+set}"    = set; then LC_CTYPE=C;    export LC_CTYPE;    fi
 if test "${LC_COLLATE+set}"  = set; then LC_COLLATE=C;  export LC_COLLATE;  fi
 
-preprocessor="$1 -DNCURSES_INTERNALS -I../include"
+preprocessor="$1 -P -DNCURSES_INTERNALS -I../include"
 AWK="$2"
 USE="$3"
 
@@ -438,10 +438,7 @@ sed -n -f $ED1 \
 	-e 's/  / /g' >>$TMP
 
 $preprocessor $TMP 2>/dev/null \
-| sed \
-	-e 's/  / /g' \
-	-e 's/^ //' \
-	-e 's/_Bool/NCURSES_BOOL/g' \
+| sed -f $ED1 \
 | $AWK -f $AW2 \
 | sed -f $ED3 \
 | sed \

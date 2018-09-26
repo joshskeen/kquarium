@@ -43,14 +43,14 @@ echo '** Building terminfo database, please wait...'
 
 : ${suffix:=}
 : ${DESTDIR:=}
-: ${prefix:=/usr/local}
+: ${prefix:=/usr/arm-linux-gnueabihf}
 : ${exec_prefix:=${prefix}}
 : ${bindir:=${exec_prefix}/bin}
 : ${top_srcdir:=..}
 : ${srcdir:=.}
 : ${datadir:=${prefix}/share}
-: ${TIC_PATH:=/Users/joshskeen/anaconda3/bin/tic}
-: ${ticdir:=/usr/local/share/terminfo}
+: ${TIC_PATH:=/usr/bin/tic}
+: ${ticdir:=/usr/arm-linux-gnueabihf/share/terminfo}
 : ${source:=${top_srcdir}/misc/terminfo.src}
 : ${LN_S:="ln -s -f"}
 : ${cross_compiling:=no}
@@ -74,7 +74,7 @@ then
 			;;
 		esac
 		export PATH
-		if test shared = shared
+		if test normal = shared
 		then
 			SHLIB="sh $srcdir/shlib"
 			TIC_PATH="$SHLIB tic"
@@ -100,7 +100,7 @@ SHLIB_PATH=$PATH
 export SHLIB_PATH
 
 # set a variable to simplify environment update in shlib
-SHLIB_HOST=darwin17.7.0
+SHLIB_HOST=linux-gnueabihf
 export SHLIB_HOST
 
 # don't use user's TERMINFO variable

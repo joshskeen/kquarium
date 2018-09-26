@@ -1,7 +1,6 @@
 import kotlinx.cinterop.*
 import ncurses.*
-import platform.posix.rand
-import platform.posix.usleep
+import platform.posix.*
 
 val sealife: MutableList<Fish> = ((0..4).map { Guppy() } +
         (0..0).map { Octopus() } +
@@ -12,12 +11,10 @@ fun main(args: Array<String>) {
 }
 
 object Game {
-    var mainWindow: CPointer<WINDOW> = initscr()!!
-    
-    val width: Int = mainWindow.getWidth()
-    
-    val height: Int = mainWindow.getHeight()
-    
+    private var mainWindow: CPointer<WINDOW> = initscr()!!
+    val width: Int = mainWindow.pointed._maxx.toInt()
+    val height: Int = mainWindow.pointed._maxy.toInt()
+
     fun run() {
         curs_set(0)
         while (true) {

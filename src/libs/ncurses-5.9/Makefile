@@ -46,19 +46,19 @@ NCURSES_PATCH	= 20110404
 top_srcdir	= .
 srcdir		= .
 
-prefix		= /usr/local
+prefix		= /usr/arm-linux-gnueabihf
 exec_prefix	= ${prefix}
 
 bindir		= ${exec_prefix}/bin
-ticdir		= /usr/local/share/terminfo
-includedir	= ${prefix}/include/ncursesw
+ticdir		= /usr/arm-linux-gnueabihf/share/terminfo
+includedir	= ${prefix}/include/ncurses
 libdir		= ${exec_prefix}/lib
 mandir		= ${prefix}/man
 
 INSTALL		= /usr/bin/install -c
 INSTALL_DATA	= ${INSTALL} -m 644
 
-DIRS_TO_MAKE	= lib obj_s objects
+DIRS_TO_MAKE	= lib objects obj_g
 
 all ::	$(DIRS_TO_MAKE)
 
@@ -109,6 +109,7 @@ install ::
 	cd man && ${MAKE} ${CF_MFLAGS} $@
 	cd include && ${MAKE} ${CF_MFLAGS} $@
 	cd ncurses && ${MAKE} ${CF_MFLAGS} $@
+	cd progs && ${MAKE} ${CF_MFLAGS} $@
 	cd panel && ${MAKE} ${CF_MFLAGS} $@
 	cd menu && ${MAKE} ${CF_MFLAGS} $@
 	cd form && ${MAKE} ${CF_MFLAGS} $@
@@ -130,6 +131,15 @@ uninstall.libs \
 install.ncurses \
 uninstall.ncurses ::
 	cd ncurses && ${MAKE} ${CF_MFLAGS} $@
+
+lint \
+libs \
+lintlib \
+install.libs \
+uninstall.libs \
+install.progs \
+uninstall.progs ::
+	cd progs && ${MAKE} ${CF_MFLAGS} $@
 
 install.includes \
 uninstall.includes \

@@ -52,14 +52,14 @@ CF_MFLAGS 	=
 DESTDIR		= 
 top_srcdir	= ..
 srcdir		= .
-prefix		= /usr/local
+prefix		= /usr/arm-linux-gnueabihf
 exec_prefix	= ${prefix}
 bindir		= ${exec_prefix}/bin
 libdir		= ${exec_prefix}/lib
 datadir		= ${prefix}/share
 
 tabsetdir	= $(datadir)/tabset
-ticdir		= /usr/local/share/terminfo
+ticdir		= /usr/arm-linux-gnueabihf/share/terminfo
 ticfile		= $(ticdir).db
 source		= ${top_srcdir}/misc/terminfo.src
 
@@ -68,7 +68,7 @@ INSTALL_PROGRAM	= ${INSTALL}
 INSTALL_SCRIPT	= ${INSTALL}
 INSTALL_DATA	= ${INSTALL} -m 644
 
-PKG_CONFIG_LIBDIR = /usr/local/lib/pkgconfig
+PKG_CONFIG_LIBDIR = none/lib/pkgconfig
 
 ################################################################################
 all :	terminfo.tmp
@@ -101,7 +101,7 @@ install.data :	terminfo.tmp \
 			$(INSTALL_DATA) $$i $(DESTDIR)$(tabsetdir)/$$i; \
 			fi; done'
 
-NCURSES_CONFIG	= ncursesw6-config
+NCURSES_CONFIG	= ncurses5-config
 
 install.libs :: $(DESTDIR)$(bindir) ncurses-config
 	$(INSTALL_SCRIPT) ncurses-config $(DESTDIR)$(bindir)/$(NCURSES_CONFIG)

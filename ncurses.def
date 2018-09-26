@@ -1,3 +1,6 @@
 package = ncurses
-headers = ncurses.h
-linkerOpts = -lncurses
+headers = ncursesw/ncurses.h
+compilerOpts= -I/usr/local/include/
+linkerOpts = -L/usr/local/lib/ -lncurses
+libraryPaths = /usr/local/lib
+staticLibraries = libncursesw.a 

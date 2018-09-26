@@ -20,22 +20,16 @@ case $DST in
 	for i in `cat $REF/../*/headers |fgrep -v "#"`
 	do
 		NAME=`basename $i`
-		if test "$NAME" = "curses.h"
-		then
-			echo "s/<curses.h>/<ncurses.h>/" >> $TMPSED
-			NAME=ncurses.h
-		fi
 		echo "s/<$NAME>/<$END\/$NAME>/" >> $TMPSED
 	done
 	;;
 *)
-	echo "s/<curses.h>/<ncurses.h>/" >> $TMPSED
+	echo "" >> $TMPSED
 	;;
 esac
 rm -f $TMPSRC
 sed -f $TMPSED $SRC > $TMPSRC
 NAME=`basename $SRC`
-test "$NAME" = "curses.h" && NAME=ncurses.h
 # Just in case someone gzip'd manpages, remove the conflicting copy.
 test -f $DST/$NAME.gz && rm -f $DST/$NAME.gz
 

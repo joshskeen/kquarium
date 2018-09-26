@@ -85,7 +85,7 @@
  * doing so makes it incompatible with other implementations of X/Open Curses.
  */
 #undef  NCURSES_CONST
-#define NCURSES_CONST const
+#define NCURSES_CONST /*nothing*/
 
 #undef NCURSES_INLINE
 #define NCURSES_INLINE inline
@@ -134,7 +134,7 @@
  * of the header incompatible.
  */
 #undef	NCURSES_CH_T
-#define NCURSES_CH_T cchar_t
+#define NCURSES_CH_T chtype
 
 #if 0 && defined(_LP64)
 typedef unsigned chtype;
@@ -243,7 +243,7 @@ extern "C" {
 
 /* line graphics */
 
-#if 0 || NCURSES_REENTRANT
+#if 1 || NCURSES_REENTRANT
 NCURSES_WRAPPED_VAR(chtype*, acs_map);
 #define acs_map NCURSES_PUBLIC_VAR(acs_map())
 #else
@@ -351,16 +351,16 @@ typedef	chtype	attr_t;		/* ...must be at least as wide as chtype */
 #include <libutf8.h>
 #endif
 
-#if 1
+#if 0
 #include <wchar.h>		/* ...to get mbstate_t, etc. */
 #endif
 
 #if 0
-typedef unsigned short wchar_t1;
+typedef unsigned short wchar_t;
 #endif
 
 #if 0
-typedef unsigned int wint_t1;
+typedef unsigned int wint_t;
 #endif
 
 /*
@@ -374,7 +374,7 @@ typedef struct
 {
     attr_t	attr;
     wchar_t	chars[CCHARW_MAX];
-#if 1
+#if 0
 #undef NCURSES_EXT_COLORS
 #define NCURSES_EXT_COLORS 20110404
     int		ext_color;	/* color pair, must be more than 16-bits */
@@ -436,7 +436,7 @@ struct _win_st
 
 #ifdef NCURSES_WIDECHAR
 	cchar_t  _bkgrnd;	/* current background char/attribute pair */
-#if 1
+#if 0
 	int	_color;		/* current color-pair for non-space character */
 #endif
 #endif
@@ -1115,7 +1115,7 @@ extern NCURSES_EXPORT(int) NCURSES_SP_NAME(use_legacy_coding) (SCREEN*, int);	/*
 #define wattroff(win,at)	wattr_off(win, NCURSES_CAST(attr_t, at), NULL)
 
 #if !NCURSES_OPAQUE
-#if defined(NCURSES_WIDECHAR) && 1
+#if defined(NCURSES_WIDECHAR) && 0
 #define wattrset(win,at)	((win) \
 				  ? ((win)->_color = PAIR_NUMBER(at), \
                                      (win)->_attrs = NCURSES_CAST(attr_t, at), \
@@ -1263,7 +1263,7 @@ extern NCURSES_EXPORT(int) NCURSES_SP_NAME(use_legacy_coding) (SCREEN*, int);	/*
 #define slk_attr_on(a,v)		((v) ? ERR : slk_attron(a))
 
 #if !NCURSES_OPAQUE
-#if defined(NCURSES_WIDECHAR) && 1
+#if defined(NCURSES_WIDECHAR) && 0
 #define wattr_set(win,a,p,opts)		((win)->_attrs = ((a) & ~A_COLOR), \
 					 (win)->_color = (p), \
 					 OK)

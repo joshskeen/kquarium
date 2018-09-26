@@ -12,48 +12,41 @@ _nc_toggle_attr_on (attr_t *S, attr_t at)
 {
  { if (((int)((((unsigned long)(at) & ((((1U) << 8) - 1U) << ((0) + 8))) >> 8))) > 0) { (*S) = ((*S) & ALL_BUT_COLOR) | (attr_t) (at); } else { (*S) |= (attr_t) (at); } ;};
 }
-
  void
 _nc_toggle_attr_off (attr_t *S, attr_t at)
 {
  { if (((int)((((unsigned long)(at) & ((((1U) << 8) - 1U) << ((0) + 8))) >> 8))) > 0) { (*S) &= ~(at|((((1U) << 8) - 1U) << ((0) + 8))); } else { (*S) &= ~(at); } ;};
 }
-
  int
 _nc_DelCharCost ( int count)
 {
- return ((cur_term->type. Strings[105] != 0) ? SP->_dch_cost : ((cur_term->type. Strings[21] != 0) ? (SP->_dch1_cost * count) : 1000000));
+ return ((cur_term->type. Strings[105] != 0) ? _nc_screen()->_dch_cost : ((cur_term->type. Strings[21] != 0) ? (_nc_screen()->_dch1_cost * count) : 1000000));
 }
-
  int
 _nc_InsCharCost ( int count)
 {
- return ((cur_term->type. Strings[108] != 0) ? SP->_ich_cost : ((cur_term->type. Strings[31] && cur_term->type. Strings[42]) ? SP->_smir_cost + SP->_rmir_cost + (SP->_ip_cost * count) : ((cur_term->type. Strings[52] != 0) ? ((SP->_ich1_cost + SP->_ip_cost) * count) : 1000000)));
+ return ((cur_term->type. Strings[108] != 0) ? _nc_screen()->_ich_cost : ((cur_term->type. Strings[31] && cur_term->type. Strings[42]) ? _nc_screen()->_smir_cost + _nc_screen()->_rmir_cost + (_nc_screen()->_ip_cost * count) : ((cur_term->type. Strings[52] != 0) ? ((_nc_screen()->_ich1_cost + _nc_screen()->_ip_cost) * count) : 1000000)));
 }
-
  void
-_nc_UpdateAttrs ( const cchar_t * c)
+_nc_UpdateAttrs ( chtype c)
 {
- if (!((((*((SP)->_current_attr))).attr) == (((*c)).attr) && ((((*((SP)->_current_attr))).ext_color) ? (((*((SP)->_current_attr))).ext_color) : ((int)((((unsigned long)((((*((SP)->_current_attr))).attr)) & ((((1U) << 8) - 1U) << ((0) + 8))) >> 8)))) == ((((*c)).ext_color) ? (((*c)).ext_color) : ((int)((((unsigned long)((((*c)).attr)) & ((((1U) << 8) - 1U) << ((0) + 8))) >> 8)))))) { vid_attr((((*c)).attr), ((((*c)).ext_color) ? (((*c)).ext_color) : ((int)((((unsigned long)((((*c)).attr)) & ((((1U) << 8) - 1U) << ((0) + 8))) >> 8)))), 0); };
+ if (!((((*((_nc_screen())->_current_attr))) & (chtype)((~(1U - 1U)) << ((0) + 8))) == ((c) & (chtype)((~(1U - 1U)) << ((0) + 8))))) { vidattr(((c) & (chtype)((~(1U - 1U)) << ((0) + 8)))); };
 }
-
 #if NCURSES_SP_FUNCS
  int
 _nc_DelCharCost (int count)
 {
- return _nc_DelCharCost (SP, count);
+ return _nc_DelCharCost (_nc_screen(), count);
 }
-
  int
 _nc_InsCharCost (int count)
 {
- return _nc_InsCharCost(SP, count);
+ return _nc_InsCharCost(_nc_screen(), count);
 }
-
  void
-_nc_UpdateAttrs (const cchar_t * c)
+_nc_UpdateAttrs (chtype c)
 {
- _nc_UpdateAttrs(SP,c);
+ _nc_UpdateAttrs(_nc_screen(),c);
 }
 #endif
 #else /* ! NCURSES_EXPANDED */

@@ -30,17 +30,17 @@
 #
 # Author: Thomas E. Dickey, 2006-on
 
-prefix="/usr/local"
+prefix="/usr/arm-linux-gnueabihf"
 exec_prefix="${prefix}"
 
 bindir="${exec_prefix}/bin"
-includedir="${prefix}/include/ncursesw"
+includedir="${prefix}/include/ncurses"
 libdir="${exec_prefix}/lib"
 datadir="${prefix}/share"
 mandir="${prefix}/man"
 
-THIS="ncursesw"
-TINFO_LIB="ncursesw"
+THIS="ncurses"
+TINFO_LIB="ncurses"
 
 LANG=C;		export LANG
 LANGUAGE=C;	export LANGUAGE
@@ -49,10 +49,10 @@ LC_CTYPE=C;	export LC_CTYPE
 
 # with --disable-overwrite, we installed into a subdirectory, but transformed
 # the headers to include like this:
-#	<ncursesw/curses.h>
+#	<ncurses/curses.h>
 if test xno = xno ; then
 	case $includedir in
-	$prefix/include/ncursesw)
+	$prefix/include/ncurses)
 		includedir=`echo "$includedir" | sed -e 's,/[^/]*$,,'`
 		;;
 	esac
@@ -98,7 +98,7 @@ ENDECHO
 		echo "5.9.20110404"
 		;;
 	--abi-version)
-		echo "6"
+		echo "5"
 		;;
 	--mouse-version)
 		echo "1"
@@ -120,10 +120,10 @@ ENDECHO
 		echo "${mandir}"
 		;;
 	--terminfo)
-		echo "/usr/local/share/terminfo"
+		echo "/usr/arm-linux-gnueabihf/share/terminfo"
 		;;
 	--terminfo-dirs)
-		echo "/usr/local/share/terminfo"
+		echo "/usr/arm-linux-gnueabihf/share/terminfo"
 		;;
 	--termpath)
 		echo ""

@@ -39,7 +39,7 @@ SHELL		= /bin/sh
 
 DESTDIR		= 
 srcdir		= .
-prefix		= /usr/local
+prefix		= /usr/arm-linux-gnueabihf
 exec_prefix	= ${prefix}
 datadir		= ${prefix}/share
 mandir		= ${prefix}/man
@@ -74,8 +74,8 @@ mostlyclean :
 clean:	mostlyclean
 	rm -f terminfo.5
 
-../edit_man.sed : make_sed.sh no
-	sh $(srcdir)/make_sed.sh no >../edit_man.sed
+../edit_man.sed : make_sed.sh /home/gradle/src/libs/ncurses-5.9/man/man_db.renames
+	sh $(srcdir)/make_sed.sh /home/gradle/src/libs/ncurses-5.9/man/man_db.renames >../edit_man.sed
 
 distclean realclean: clean
 	rm -f Makefile *-config.1 ../edit_man.* ../man_alias.*

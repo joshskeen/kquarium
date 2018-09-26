@@ -55,7 +55,7 @@ extern "C" {
  */
 
 #undef  NCURSES_CONST
-#define NCURSES_CONST const
+#define NCURSES_CONST /*nothing*/
 
 #undef  NCURSES_SBOOL
 #define NCURSES_SBOOL char
@@ -83,7 +83,7 @@ extern "C" {
 #else /* !HAVE_TERMIOS_H */
 
 /* #if HAVE_TERMIO_H */
-#if 0
+#if 1
 
 #undef  TERMIOS
 #define TERMIOS 1
@@ -705,7 +705,7 @@ typedef struct term {		/* describe an actual terminal */
     char *      _termname;      /* used for termname() */
 } TERMINAL;
 
-#if 0 && !0
+#if 1 && !0
 extern NCURSES_EXPORT_VAR(TERMINAL *) cur_term;
 #elif 0
 NCURSES_WRAPPED_VAR(TERMINAL *, cur_term);
@@ -714,7 +714,7 @@ NCURSES_WRAPPED_VAR(TERMINAL *, cur_term);
 extern NCURSES_EXPORT_VAR(TERMINAL *) cur_term;
 #endif
 
-#if 0 || 0
+#if 1 || 0
 NCURSES_WRAPPED_VAR(NCURSES_CONST char * const *, boolnames);
 NCURSES_WRAPPED_VAR(NCURSES_CONST char * const *, boolcodes);
 NCURSES_WRAPPED_VAR(NCURSES_CONST char * const *, boolfnames);

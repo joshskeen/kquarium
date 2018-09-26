@@ -8,7 +8,7 @@
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
+            <option value="$USER_HOME$/code/kotlin-native-experiments/kquarium" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

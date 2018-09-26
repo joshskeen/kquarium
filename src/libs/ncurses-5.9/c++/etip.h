@@ -50,11 +50,11 @@
 #endif
 
 #ifndef HAVE_IOSTREAM
-#define HAVE_IOSTREAM 1
+#define HAVE_IOSTREAM 0
 #endif
 
 #ifndef HAVE_TYPEINFO
-#define HAVE_TYPEINFO 1
+#define HAVE_TYPEINFO 0
 #endif
 
 #ifndef HAVE_VALUES_H
@@ -62,7 +62,7 @@
 #endif
 
 #ifndef ETIP_NEEDS_MATH_H
-#define ETIP_NEEDS_MATH_H 1
+#define ETIP_NEEDS_MATH_H 0
 #endif
 
 #ifndef ETIP_NEEDS_MATH_EXCEPTION
@@ -78,7 +78,7 @@
 #endif
 
 #ifndef IOSTREAM_NAMESPACE
-#define IOSTREAM_NAMESPACE 1
+#define IOSTREAM_NAMESPACE 0
 #endif
 
 #ifdef __GNUG__

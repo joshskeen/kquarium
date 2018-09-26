@@ -5,9 +5,9 @@ plugins {
 konanArtifacts {
 
     interop('ncurses', targets: ['macbook']) {
-        defFile 'ncurses.def'
+            defFile 'ncurses.def'
     }
-
+    
     program('kquarium', targets: ['macbook']) {
         srcDir "${project.rootDir}/src/main/kotlin"
         libraries {
