@@ -1,6 +1,7 @@
+import konan.worker.*
 import kotlinx.cinterop.*
-import ncurses.*
 import platform.posix.*
+import ncurses.*
 
 val sealife: MutableList<Fish> = ((0..4).map { Guppy() } +
         (0..0).map { Octopus() } +
@@ -8,25 +9,34 @@ val sealife: MutableList<Fish> = ((0..4).map { Guppy() } +
 
 fun main(args: Array<String>) {
     Game.run()
+    println("thread's id: ${pthread_self()}")
 }
 
 object Game {
-    private var mainWindow: CPointer<WINDOW> = initscr()!!
-    val width: Int = mainWindow.pointed._maxx.toInt()
-    val height: Int = mainWindow.pointed._maxy.toInt()
+    val window: CPointer<WINDOW> = initscr()!!
+    val width: Int = window.pointed._maxx.toInt()
+    val height: Int = window.pointed._maxy.toInt()
 
     fun run() {
         curs_set(0)
         while (true) {
-            mainWindow.clear()
-            for (fish in sealife) {
-                mainWindow.refresh()
-                fish.update()
+            window.clear()
+            sealife.forEach {
+                window.refresh()
+                it.update()
             }
-            mainWindow.refresh()
-            usleep(1000 * 350)
+            window.refresh()
+            sealife.forEach { fish ->
+                sealife.forEach {
+                    if (it != fish && fish.hitTest(it)) {
+                        libcsynth.play(it.posX * 15, 50)
+                    }
+                }
+            }
         }
     }
 }
+
+data class FishData(val x: Int, val y: Int)
 
 fun Int.randRange(min: Int) = rand() % (this - min)

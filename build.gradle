@@ -7,11 +7,14 @@ konanArtifacts {
     interop('ncurses', targets: ['macbook']) {
             defFile 'ncurses.def'
     }
-    
+    interop('libcsynthlib', targets: ['macbook']) {
+            defFile 'libcsynth.def'
+    }
     program('kquarium', targets: ['macbook']) {
         srcDir "${project.rootDir}/src/main/kotlin"
         libraries {
             artifact 'ncurses'
+            artifact 'libcsynthlib'
         }
     }
 }

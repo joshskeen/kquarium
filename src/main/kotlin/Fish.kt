@@ -1,3 +1,4 @@
+import Game.window
 import ncurses.*
 
 class Guppy : Fish("art/fishone.txt", 4)
@@ -9,9 +10,14 @@ open class Fish(filePath: String, private val speed: Int = 3) {
     private val asciiData: List<String> = readFileData(filePath).split("\n")
     private val windowWidth = asciiData.max()!!.length + 5
     private val windowHeight = asciiData.size + 1
-    private var posX = (Game.width - windowWidth).randRange(5)
-    private var posY = (Game.height - windowHeight).randRange(5)
-    private val window = newwin(windowHeight, windowWidth, posY, posX)!!
+    var posX = (Game.width - windowWidth).randRange(5)
+    var posY = (Game.height - windowHeight).randRange(5)
+    private val maxX: Int
+        get() = (posX + windowWidth)
+    private val maxY: Int
+        get() = (posY + windowHeight)
+
+    val window = newwin(windowHeight, windowWidth, posY, posX)!!
     private var directionX = 1
     private var directionY = 1
     private val computeX: Int
@@ -23,6 +29,14 @@ open class Fish(filePath: String, private val speed: Int = 3) {
             }
             return rand * directionX
         }
+
+    fun hitTest(fish: Fish) = when {
+        fish.maxX < posX -> false
+        fish.posX > maxX -> false
+        fish.maxY > posY -> false
+        fish.posY > maxY -> false
+        else -> true
+    }
 
     private val computeY: Int
         get() {
@@ -47,6 +61,10 @@ open class Fish(filePath: String, private val speed: Int = 3) {
         }
         posX += computeX
         posY += computeY
+    }
+
+    fun toData(): FishData {
+        return FishData(posX, posY)
     }
 
 }

@@ -1,0 +1,3 @@
+/Users/joshskeen/code/kotlin-native-experiments/kquarium/src/libs/csynth/CMakeFiles/rebuild_cache.dir
+/Users/joshskeen/code/kotlin-native-experiments/kquarium/src/libs/csynth/CMakeFiles/edit_cache.dir
+/Users/joshskeen/code/kotlin-native-experiments/kquarium/src/libs/csynth/CMakeFiles/csynth.dir

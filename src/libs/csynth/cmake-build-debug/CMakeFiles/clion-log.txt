@@ -1,0 +1,4 @@
+/Users/joshskeen/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/joshskeen/code/kotlin-native-experiments/kquarium/src/libs/csynth
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/joshskeen/code/kotlin-native-experiments/kquarium/src/libs/csynth

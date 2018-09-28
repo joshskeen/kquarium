@@ -1,0 +1,3 @@
+/Users/joshskeen/code/kotlin-native-experiments/csynth/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/joshskeen/code/kotlin-native-experiments/csynth/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/joshskeen/code/kotlin-native-experiments/csynth/cmake-build-debug/CMakeFiles/csynth.dir

@@ -1,0 +1,6 @@
+package = libcsynth
+headers = csynth.h
+compilerOpts=-I/Users/joshskeen/code/kotlin-native-experiments/kquarium/src/libs/csynth/
+linkerOpts = -lportaudio
+libraryPaths = /Users/joshskeen/code/kotlin-native-experiments/kquarium/src/libs/csynth/
+staticLibraries = libcsynth.a 

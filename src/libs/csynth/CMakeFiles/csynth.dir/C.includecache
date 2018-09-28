@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/joshskeen/code/kotlin-native-experiments/kquarium/src/libs/csynth/csynth.c
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+portaudio.h
+-
+dispatch/dispatch.h
+-
+

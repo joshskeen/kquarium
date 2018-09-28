@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="csynth" targetName="csynth" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4a84164-6cd4-46d3-90d1-ff0a6ca60db4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libfmsynth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses-5.9/ncurses/base/lib_newwin.c" beforeDir="false" afterPath="$PROJECT_DIR$/../ncurses-5.9/ncurses/base/lib_newwin.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses-6.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ANNOUNCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/TODO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/configure.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/doc/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/adacurses-config.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/gen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/html.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/normal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/table.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-aux.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-forms-field_types.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-forms-field_user_data.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-forms-form_user_data.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-forms.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-menus-item_user_data.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-menus-menu_user_data.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-menus.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-mouse.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-panels-user_data.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-panels.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses-trace.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses.adb.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/gen/terminal_interface-curses.ads.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/include/MKncurses_def.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/include/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/include/ncurses_cfg.hin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/include/ncurses_defs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/make-tar.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/mk-1st.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/package/AdaCurses-doc.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/package/AdaCurses.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/package/debian/compat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/package/debian/control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/package/debian/copyright" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/package/debian/docs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/package/debian/rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/package/debian/source/format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/package/debian/watch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/explain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-acs_and_scroll.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-acs_and_scroll.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-acs_display.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-acs_display.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-attr_test.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-attr_test.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-color_edit.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-color_edit.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-color_test.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-color_test.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-demo_forms.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-demo_forms.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-demo_pad.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-demo_pad.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-demo_panels.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-demo_panels.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-flushinp_test.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-flushinp_test.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-genericputs.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-genericputs.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-getch.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-getch_test.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-getch_test.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-getopt.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-getopt.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-m.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-m.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-menu_test.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-menu_test.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-overlap_test.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-overlap_test.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-slk_test.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-slk_test.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-test_sgr_attributes.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-test_sgr_attributes.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-trace_set.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-trace_set.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-util.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2-util.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/ncurses2.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/rain.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/rain.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-curses_demo-attributes.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-curses_demo-attributes.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-curses_demo-mouse.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-curses_demo-mouse.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-curses_demo.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-curses_demo.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-explanation.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-explanation.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-form_demo-aux.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-form_demo-aux.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-form_demo-handler.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-form_demo-handler.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-form_demo.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-form_demo.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-function_key_setting.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-function_key_setting.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-header_handler.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-header_handler.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-helpers.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-helpers.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-keyboard_handler.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-keyboard_handler.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-manifest.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-menu_demo-aux.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-menu_demo-aux.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-menu_demo-handler.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-menu_demo-handler.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-menu_demo.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-menu_demo.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-my_field_type.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-my_field_type.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-text_io_demo.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample-text_io_demo.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/sample.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/status.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/status.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/tour.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/samples/tour.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/c_varargs_to_ada.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/c_varargs_to_ada.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/library.gpr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/ncurses_compat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-aux.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-alpha.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-alpha.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-alphanumeric.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-alphanumeric.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-enumeration-ada.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-enumeration-ada.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-enumeration.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-enumeration.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-intfield.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-intfield.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-ipv4_address.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-ipv4_address.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-numeric.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-numeric.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-regexp.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-regexp.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-user-choice.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-user-choice.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-user.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types-user.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_types.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-field_user_data.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms-form_user_data.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-forms.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-menus-item_user_data.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-menus-menu_user_data.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-menus.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-mouse.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-panels-user_data.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-panels.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-putwin.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-putwin.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-termcap.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-termcap.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-terminfo.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-terminfo.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-aux.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-aux.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-complex_io.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-complex_io.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-decimal_io.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-decimal_io.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-enumeration_io.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-enumeration_io.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-fixed_io.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-fixed_io.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-float_io.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-float_io.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-integer_io.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-integer_io.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-modular_io.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io-modular_io.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io.adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-text_io.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface-curses-trace.adb_p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Ada95/src/terminal_interface.ads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/MANIFEST" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/Makefile.os2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/NEWS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/README.MinGW" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/README.emx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/TO-DO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/announce.html.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/NEWS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/PROBLEMS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/README-first" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesapp.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesapp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesf.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesm.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesmain.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesp.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursespad.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesw.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursesw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursslk.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/cursslk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/demo.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/edit_cfg.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/etip.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/c++/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/config.guess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/config.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/config.sub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/configure.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/convert_configure.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/dist.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/hackguide.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/Ada95.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/NCURSES-Programming-HOWTO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/files.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/files/T.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/A.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/B.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/C.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/D.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/E.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/F.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/G.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/H.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/I.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/K.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/L.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/M.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/N.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/O.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/P.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/Q.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/R.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/S.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/T.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/U.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/V.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/funcs/W.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-aux__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-aux__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-alpha__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-alpha__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-alphanumeric__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-alphanumeric__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-enumeration-ada__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-enumeration-ada__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-enumeration__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-enumeration__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-intfield__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-intfield__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-ipv4_address__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-ipv4_address__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-numeric__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-numeric__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-regexp__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-regexp__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-user-choice__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-user-choice__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-user__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types-user__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_types__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_user_data__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-field_user_data__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-form_user_data__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms-form_user_data__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-forms__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-menus-item_user_data__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-menus-item_user_data__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-menus-menu_user_data__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-menus-menu_user_data__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-menus__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-menus__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-mouse__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-mouse__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-panels-user_data__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-panels-user_data__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-panels__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-panels__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-putwin__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-putwin__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-termcap__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-termcap__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-terminfo__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-terminfo__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-aux__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-aux__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-complex_io__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-complex_io__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-decimal_io__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-decimal_io__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-enumeration_io__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-enumeration_io__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-fixed_io__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-fixed_io__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-float_io__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-float_io__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-integer_io__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-integer_io__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-modular_io__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io-modular_io__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-text_io__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-trace__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses-trace__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses__adb.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface-curses__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ada/terminal_interface__ads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/announce.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/hackguide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/adacurses-config.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/captoinfo.1m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/clear.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_add_wch.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_add_wchstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_addch.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_addchstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_addstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_addwstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_attr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_beep.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_bkgd.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_bkgrnd.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_border.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_border_set.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_clear.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_color.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_delch.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_deleteln.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_extend.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_get_wch.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_get_wstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_getcchar.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_getch.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_getstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_getyx.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_in_wch.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_in_wchstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_inch.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_inchstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_initscr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_inopts.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_ins_wch.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_ins_wstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_insch.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_insstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_instr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_inwstr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_kernel.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_legacy.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_memleaks.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_mouse.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_move.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_opaque.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_outopts.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_overlay.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_pad.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_print.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_printw.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_refresh.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_scanw.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_scr_dump.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_scroll.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_slk.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_sp_funcs.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_termattrs.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_termcap.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_terminfo.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_threads.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_touch.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_trace.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_util.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_variables.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/curs_window.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/default_colors.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/define_key.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_cursor.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_data.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_driver.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_field.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_field_attributes.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_field_buffer.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_field_info.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_field_just.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_field_new.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_field_opts.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_field_userptr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_field_validation.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_fieldtype.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_hook.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_new.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_new_page.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_opts.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_page.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_post.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_requestname.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_userptr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_variables.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/form_win.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/infocmp.1m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/infotocap.1m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/key_defined.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/keybound.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/keyok.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/legacy_coding.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_attributes.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_cursor.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_driver.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_format.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_hook.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_items.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_mark.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_new.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_opts.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_pattern.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_post.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_requestname.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_spacing.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_userptr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/menu_win.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/mitem_current.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/mitem_name.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/mitem_new.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/mitem_opts.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/mitem_userptr.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/mitem_value.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/mitem_visible.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/ncurses.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/ncurses5-config.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/panel.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/resizeterm.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/tabs.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/term.5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/term.7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/term_variables.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/terminfo.5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/tic.1m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/toe.1m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/tput.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/tset.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/man/wresize.3x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/html/ncurses-intro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/doc/ncurses-intro.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/READ.ME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/f_trace.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_arg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_attr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_current.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_def.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_dup.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_ftchoice.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_ftlink.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_info.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_just.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_link.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_max.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_move.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_newftyp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_opts.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_pad.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_page.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_stat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_type.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fld_user.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/form.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/form.priv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_cursor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_data.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_def.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_driver.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_hook.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_opts.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_page.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_post.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_req_name.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_scale.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_sub.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_user.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/frm_win.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fty_alnum.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fty_alpha.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fty_enum.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fty_generic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fty_int.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fty_ipv4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fty_num.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/fty_regex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/llib-lform" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/llib-lformt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/llib-lformtw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/llib-lformw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/form/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/Caps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/Caps.aix4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/Caps.hpux11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/Caps.keys" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/Caps.osf1r5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/Caps.uwin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/MKhashsize.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/MKkey_defs.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/MKncurses_def.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/MKparametrized.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/MKterm.h.awk.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/capdefaults.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/curses.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/curses.tail" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/curses.wide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/edit_cfg.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/hashed_db.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/nc_alloc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/nc_mingw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/nc_panel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/nc_tparm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/ncurses_cfg.hin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/ncurses_defs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/ncurses_dll.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/ncurses_mingw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/term_entry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/termcap.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/tic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/include/unctrl.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/install-sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/MKada_config.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/MKncu_config.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/MKterminfo.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/captoinfo.1m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/clear.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_add_wch.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_add_wchstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_addch.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_addchstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_addstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_addwstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_attr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_beep.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_bkgd.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_bkgrnd.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_border.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_border_set.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_clear.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_color.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_delch.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_deleteln.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_extend.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_get_wch.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_get_wstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_getcchar.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_getch.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_getstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_getyx.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_in_wch.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_in_wchstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_inch.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_inchstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_initscr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_inopts.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_ins_wch.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_ins_wstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_insch.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_insstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_instr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_inwstr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_kernel.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_legacy.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_memleaks.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_mouse.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_move.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_opaque.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_outopts.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_overlay.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_pad.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_print.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_printw.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_refresh.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_scanw.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_scr_dump.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_scroll.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_slk.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_sp_funcs.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_termattrs.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_termcap.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_terminfo.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_threads.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_touch.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_trace.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_util.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_variables.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/curs_window.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/default_colors.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/define_key.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_cursor.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_data.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_driver.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_field.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_field_attributes.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_field_buffer.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_field_info.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_field_just.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_field_new.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_field_opts.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_field_userptr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_field_validation.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_fieldtype.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_hook.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_new.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_new_page.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_opts.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_page.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_post.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_requestname.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_userptr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_variables.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/form_win.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/infocmp.1m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/infotocap.1m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/key_defined.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/keybound.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/keyok.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/legacy_coding.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/make_sed.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/man_db.renames" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/manlinks.sed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_attributes.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_cursor.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_driver.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_format.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_hook.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_items.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_mark.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_new.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_opts.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_pattern.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_post.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_requestname.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_spacing.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_userptr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/menu_win.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/mitem_current.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/mitem_name.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/mitem_new.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/mitem_opts.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/mitem_userptr.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/mitem_value.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/mitem_visible.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/ncurses.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/panel.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/resizeterm.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/tabs.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/term.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/term.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/term_variables.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/terminfo.head" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/terminfo.tail" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/tic.1m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/toe.1m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/tput.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/tset.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/man/wresize.3x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/READ.ME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/eti.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/llib-lmenu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/llib-lmenut" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/llib-lmenutw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/llib-lmenuw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_attribs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_cursor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_driver.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_format.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_global.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_hook.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_item_cur.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_item_nam.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_item_new.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_item_opt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_item_top.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_item_use.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_item_val.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_item_vis.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_items.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_new.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_opts.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_pad.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_pattern.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_post.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_req_name.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_scale.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_spacing.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_sub.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_trace.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_userptr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/m_win.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/menu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/menu.priv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/mf_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/menu/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/chkdef.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/cleantic.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/cmpdef.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/csort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/emx.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/form.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/form.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/gen-pkgconfig.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/gen_edit.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/makedef.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/makellib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/menu.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/menu.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/ncurses-config.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/ncurses.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/ncurses.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/ncurses.supp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/panel.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/panel.ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/run_tic.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/shlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/tabset/std" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/tabset/stdcrt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/tabset/vt100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/tabset/vt300" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/tdlint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/misc/terminfo.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/mk-0th.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/mk-1st.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/mk-2nd.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/mk-dlls.sh.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/mk-hdr.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/README.IZ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/SigAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/MKkeyname.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/MKlib_gen.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/MKunctrl.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/define_key.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/key_defined.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/keybound.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/keyok.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/legacy_coding.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_addch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_addstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_beep.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_bkgd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_box.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_chgat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_clear.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_clearok.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_clrbot.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_clreol.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_color.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_colorset.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_delch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_delwin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_dft_fgbg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_driver.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_echo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_endwin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_erase.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_flash.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_freeall.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_getch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_getstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_hline.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_immedok.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_inchstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_initscr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_insch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_insdel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_insnstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_instr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_isendwin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_leaveok.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_mouse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_move.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_mvwin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_newterm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_newwin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_nl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_overlay.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_pad.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_printw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_redrawln.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_refresh.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_restart.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_scanw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_screen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_scroll.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_scrollok.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_scrreg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_set_term.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slk.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slkatr_set.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slkatrof.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slkatron.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slkatrset.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slkattr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slkclear.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slkcolor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slkinit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slklab.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slkrefr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slkset.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_slktouch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_touch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_ungetch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_vline.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_wattroff.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_wattron.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_winch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/lib_window.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/memmove.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/nc_panel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/resizeterm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/safe_sprintf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/sigaction.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/tries.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/use_window.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/version.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/vsscanf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/base/wresize.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/build.priv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/curses.priv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/fifo_defs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/llib-lncurses" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/llib-lncursest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/llib-lncursestw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/llib-lncursesw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/MKcaptab.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/MKcaptab.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/MKcodes.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/MKfallback.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/MKkeys_list.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/MKnames.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/access.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/add_tries.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/alloc_entry.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/alloc_ttype.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/captoinfo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/comp_error.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/comp_expand.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/comp_hash.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/comp_parse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/comp_scan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/db_iterator.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/doalloc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/entries.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/free_ttype.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/getenv_num.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/hashed_db.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/home_terminfo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/init_keytry.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_acs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_baudrate.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_cur_term.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_data.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_has_cap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_kernel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_longname.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_napms.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_options.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_print.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_raw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_setup.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_termcap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_termname.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_tgoto.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_ti.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_tparm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_tputs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/lib_ttyflags.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/make_hash.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/make_keys.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/name_match.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/parse_entry.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/read_entry.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/read_termcap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/setbuf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/strings.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/tinfo_driver.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/trim_sgr0.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/use_screen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tinfo/write_entry.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/lib_trace.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/lib_traceatr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/lib_tracebits.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/lib_tracechr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/lib_tracedmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/lib_tracemse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/trace_buf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/trace_tries.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/trace_xnames.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/varargs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/trace/visbuf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tty/MKexpanded.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tty/hardscroll.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tty/hashmap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tty/lib_mvcur.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tty/lib_tstp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tty/lib_twait.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tty/lib_vidattr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tty/tty_display.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tty/tty_input.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/tty/tty_update.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/wcwidth.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/charable.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_add_wch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_box_set.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_cchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_erasewchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_get_wch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_get_wstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_hline_set.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_in_wch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_in_wchnstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_ins_wch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_inwstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_key_name.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_pecho_wchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_slk_wset.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_unget_wch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_vid_attr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_vline_set.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_wacs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/widechar/lib_wunctrl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/win32con/gettimeofday.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/win32con/wcwidth.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/ncurses/win32con/win_driver.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/llib-lpanel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/llib-lpanelt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/llib-lpaneltw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/llib-lpanelw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_above.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_below.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_bottom.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_delete.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_hidden.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_hide.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_move.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_new.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_replace.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_show.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_top.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_update.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_user.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/p_win.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/panel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/panel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/panel/panel.priv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/MKtermsort.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/capconvert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/clear.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/clear.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/dump_entry.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/dump_entry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/infocmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/progs.priv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/tabs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/tic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/toe.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/tput.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/transform.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/progs/tset.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/background.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/blue.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/bs.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/bs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/bulgarian-utf8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/cardfile.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/cardfile.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/chgat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/clip_printw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/color_set.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/configure.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/demo_altkeys.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/demo_defkey.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/demo_forms.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/demo_keyok.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/demo_menus.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/demo_panels.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/demo_termcap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/demo_terminfo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/ditto.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/dots.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/dots_mvcur.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/echochar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/edit_field.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/edit_field.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/filter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/firework.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/firstlast.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/foldkeys.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/gdc.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/gdc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/hanoi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/hashtest.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/inch_wide.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/inchs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/ins_wide.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/insdelln.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/inserts.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/key_names.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/keynames.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/knight.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/linedata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/linux-color.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/listused.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/lrtest.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/make-tar.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/mk-test.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/movewindow.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/ncurses.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/ncurses_tst.hin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/newdemo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/package/debian/compat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/package/debian/control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/package/debian/copyright" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/package/debian/docs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/package/debian/rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/package/debian/source/format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/package/debian/watch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/package/ncurses-examples.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/programs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/railroad.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/rain.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/redraw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/savescreen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/savescreen.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/tclock.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test.priv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test_add_wchstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test_addchstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test_addstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test_addwstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test_arrays.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test_get_wstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test_getstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test_instr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test_inwstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/test_opaque.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/testaddch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/testcurs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/testscanw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/tracemunch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/view.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/widechars-utf8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/worm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/xmas.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/xterm-16color.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/xterm-256color.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ncurses2/ncurses-5.9/test/xterm-88color.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portaudio" beforeDir="false" afterPath="$PROJECT_DIR$/../portaudio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/kotlin/Fish.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/kotlin/Fish.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/kotlin/main.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="650236163">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="1225" />
+          <entry key="h" value="97" />
+          <entry key="txt" value="368" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="368" />
+          <entry key="Doxygen file" value="1" />
+          <entry key="ObjectiveC" value="1321" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="1" />
+          <entry key="c" value="3" />
+          <entry key="cbp" value="1" />
+          <entry key="h" value="21" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeCache.txt" value="1" />
+          <entry key="CMakeLists.txt" value="4" />
+          <entry key="ObjectiveC" value="24" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="28115374">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="172" />
+          <entry key="h" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="173" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="h" value="3" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csynth.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1558">
+              <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csynth.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>char</find>
+      <find>sound)</find>
+      <find>write_callback</find>
+      <find>frame_count_max</find>
+      <find>stop</find>
+      <find>pause</find>
+      <find>TABLE_SIZE</find>
+      <find>NUM_SECONDS</find>
+      <find>message</find>
+      <find>tableSize</find>
+      <find>free</find>
+      <find>paTestData</find>
+      <find>sine</find>
+      <find>patestCallback</find>
+      <find>left_phase</find>
+      <find>phase</find>
+      <find>size</find>
+      <find>main</find>
+      <find>sleep</find>
+      <find>thread</find>
+      <find>duration</find>
+      <find>durationInMill</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fmsynth.h" />
+        <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/soundgen.h" />
+        <option value="$PROJECT_DIR$/csynth.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/csynth.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="csynth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csynth" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="cs&#9;FILE&#9;file:///Users/joshskeen/code/kotlin-native-experiments/csynth/csynth.c" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.csynth">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="csynth" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="csynth" TARGET_NAME="csynth" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="csynth" RUN_TARGET_NAME="csynth">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.csynth" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4a84164-6cd4-46d3-90d1-ff0a6ca60db4" name="Default Changelist" comment="" />
+      <created>1538078109473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538078109473</updated>
+      <workItem from="1538078111253" duration="18856000" />
+      <workItem from="1538143671066" duration="105000" />
+      <workItem from="1538143799713" duration="63000" />
+      <workItem from="1538143883923" duration="538000" />
+      <workItem from="1538144562162" duration="41000" />
+      <workItem from="1538144635315" duration="345000" />
+      <workItem from="1538145057465" duration="97000" />
+      <workItem from="1538145176999" duration="59000" />
+      <workItem from="1538145633055" duration="48000" />
+      <workItem from="1538145707187" duration="138000" />
+      <workItem from="1538145867761" duration="21000" />
+      <workItem from="1538146669012" duration="2703000" />
+      <workItem from="1538149431185" duration="4301000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27315000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1680" height="1028" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18702866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3846154" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="13" weight="0.37028658" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.07347101" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/csynth.cbp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/soundio/soundio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="1139" column="3" lean-forward="true" selection-start-line="1139" selection-start-column="3" selection-end-line="1139" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fmsynth.h" />
+    <entry file="file:///usr/local/include/portaudio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="1191" column="13" selection-start-line="1191" selection-start-column="13" selection-end-line="1191" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/dispatch/dispatch.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/dispatch/queue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="454" column="48" selection-start-line="454" selection-start-column="48" selection-end-line="454" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csynth.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csynth.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

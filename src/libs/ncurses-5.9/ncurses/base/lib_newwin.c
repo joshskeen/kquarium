@@ -54,7 +54,7 @@ MODULE_ID("$Id: lib_newwin.c,v 1.69 2011/03/07 21:58:17 tom Exp $")
 #define remove_window(name) \
 		sp->_##name = 0; \
 		if (win == name) \
-		    name = 0
+		    name = 0WINDOW
 #endif
 
 static void
