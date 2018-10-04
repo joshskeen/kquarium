@@ -3,19 +3,26 @@ import kotlinx.cinterop.*
 import platform.posix.*
 import ncurses.*
 
-val sealife: MutableList<Fish> = ((0..4).map { Guppy() } +
-        (0..0).map { Octopus() } +
-        (0..2).map { Flounder() }).toMutableList()
+val sealife: MutableList<Fish> = (
+        (0..3).map { Flounder() } +
+                (0..1).map { Shark() } +
+                Octopus() +
+                Guppy() +
+                SeaDemon()
+        ).toMutableList()
 
 fun main(args: Array<String>) {
     Game.run()
-    println("thread's id: ${pthread_self()}")
 }
 
 object Game {
     val window: CPointer<WINDOW> = initscr()!!
     val width: Int = window.pointed._maxx.toInt()
     val height: Int = window.pointed._maxy.toInt()
+
+    init {
+        start_color()
+    }
 
     fun run() {
         curs_set(0)
@@ -25,14 +32,11 @@ object Game {
                 window.refresh()
                 it.update()
             }
-            window.refresh()
-            sealife.forEach { fish ->
-                sealife.forEach {
-                    if (it != fish && fish.hitTest(it)) {
-                        libcsynth.play(it.posX * 15, 50)
-                    }
-                }
-            }
+            sealife.map { outer ->
+                val contains = sealife.map { inner -> inner.hitTest(outer) }.contains(true)
+                if (contains) outer.play()
+            }.all { false }
+            usleep(110000)
         }
     }
 }

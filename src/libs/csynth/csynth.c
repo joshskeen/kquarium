@@ -18,73 +18,75 @@ typedef struct {
     char message[20];
     float *sine;
 }
-        paTestData;
+        synthData;
 
 
-static int patestCallback(const void *inputBuffer, void *outputBuffer,
-                          unsigned long framesPerBuffer,
-                          const PaStreamCallbackTimeInfo *timeInfo,
-                          PaStreamCallbackFlags statusFlags,
-                          void *userData) {
-    paTestData *data = (paTestData *) userData;
+static int audioCallback(const void *inputBuffer, void *outputBuffer,
+                         unsigned long framesPerBuffer,
+                         const PaStreamCallbackTimeInfo *timeInfo,
+                         PaStreamCallbackFlags statusFlags,
+                         void *userData) {
+    synthData *data = (synthData *) userData;
     float *out = (float *) outputBuffer;
     unsigned long i;
 
-    (void) timeInfo; /* Prevent unused variable warnings. */
+    (void) timeInfo;
     (void) statusFlags;
     (void) inputBuffer;
     for (i = 0; i < framesPerBuffer; i++) {
-        *out++ = data->sine[data->left_phase];  /* left */
-        *out++ = data->sine[data->right_phase];  /* right */
+        *out++ = data->sine[data->left_phase];
+        *out++ = data->sine[data->right_phase];
         data->left_phase += 1;
         if (data->left_phase >= data->size) data->left_phase -= data->size;
-        data->right_phase += 3; /* higher pitch so we can distinguish left and right. */
+        data->right_phase += 3;
         if (data->right_phase >= data->size) data->right_phase -= data->size;
     }
     return paContinue;
 }
 
 static void StreamFinished(void *userData) {
-    paTestData *data = (paTestData *) userData;
+    synthData *data = (synthData *) userData;
 }
 
-
 PaError play(int tableSize, long millis) {
-
     PaStreamParameters outputParameters;
     PaStream *stream;
     PaError err;
-    paTestData data;
+    synthData data;
     int i;
     data.size = tableSize;
     data.sine = malloc(sizeof(float) * tableSize);
 
     for (i = 0; i < tableSize; i++) {
-        data.sine[i] = (float) sin(((double) i / (double) tableSize) * M_PI * 3.);
+        float d = (float) sin(((double) i / (double) tableSize) * M_PI * 2.);
+        data.sine[i] = d;
     }
-    data.left_phase = data.right_phase = 0;
 
+    data.left_phase = data.right_phase = 0;
     err = Pa_Initialize();
     if (err != paNoError) goto error;
 
-    outputParameters.device = Pa_GetDefaultOutputDevice(); /* default output device */
+    outputParameters.device = Pa_GetDefaultOutputDevice();
     if (outputParameters.device == paNoDevice) {
         goto error;
     }
-    outputParameters.channelCount = 2;       /* stereo output */
-    outputParameters.sampleFormat = paFloat32; /* 32 bit floating point output */
+    outputParameters.channelCount = 2;
+    outputParameters.sampleFormat = paFloat32;
     outputParameters.suggestedLatency = Pa_GetDeviceInfo(outputParameters.device)->defaultLowOutputLatency;
     outputParameters.hostApiSpecificStreamInfo = NULL;
 
     err = Pa_OpenStream(
             &stream,
-            NULL, /* no input */
+            NULL,
             &outputParameters,
             SAMPLE_RATE,
             FRAMES_PER_BUFFER,
-            paClipOff,      /* we won't output out of range samples so don't bother clipping them */
-            patestCallback,
+            paClipOff,
+            audioCallback,
             &data);
+
+    free(data.sine);
+
     if (err != paNoError) goto error;
 
     err = Pa_SetStreamFinishedCallback(stream, &StreamFinished);
@@ -102,7 +104,6 @@ PaError play(int tableSize, long millis) {
     if (err != paNoError) goto error;
 
     Pa_Terminate();
-    free(data.sine);
     return err;
     error:
     Pa_Terminate();
